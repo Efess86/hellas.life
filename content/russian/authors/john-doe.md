@@ -1,6 +1,6 @@
 ---
-title: John Doe
-email: johndoe@email.com
+title: Vasiliy Kolpaxidis
+email: hellas.life.web@gmail.com
 image: "/images/avatar.png"
 description: this is meta description
 social:

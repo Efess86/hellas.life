@@ -37,6 +37,11 @@ pageRef = "/categories"
 
 [[main]]
 parent = "Страницы"
+name = "Элементы"
+pageRef = "/elements"
+
+[[main]]
+parent = "Страницы"
 name = "404 страница"
 pageRef = "/404"
 

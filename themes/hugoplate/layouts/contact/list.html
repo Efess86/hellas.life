@@ -45,6 +45,7 @@
 
 {{ with site.Params.subscription }}
 {{ if .enable }}
+
 <!-- subscription form -->
 <form action="{{ .mailchimp_form_action | safeURL }}" method="post" id="mc-embedded-subscribe-form"
   novalidate="novalidate">
