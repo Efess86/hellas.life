@@ -1,0 +1,53 @@
+############# Russian navigation ##############
+
+# main menu
+[[main]]
+name = "Главная"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "О нас"
+pageRef = "/about"
+weight = 2
+
+[[main]]
+weight = 4
+name = "Страницы"
+
+[[main]]
+parent = "Страницы"
+name = "Блог"
+pageRef = "/blog"
+
+[[main]]
+parent = "Страницы"
+name = "Контакты"
+pageRef = "/contact"
+
+[[main]]
+parent = "Страницы"
+name = "Автор"
+pageRef = "/authors"
+
+[[main]]
+parent = "Страницы"
+name = "Категории"
+pageRef = "/categories"
+
+[[main]]
+parent = "Страницы"
+name = "404 страница"
+pageRef = "/404"
+
+
+# footer menu
+[[footer]]
+name = "О нас"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Политика Конфиденциальности"
+pageRef = "/privacy-policy"
+weight = 3
